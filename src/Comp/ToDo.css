@@ -1,0 +1,68 @@
+.toDo {
+    background: url('doodle.jpg');
+
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+     position: fixed;
+     z-index: -1;
+}
+
+.toDo-Container{
+    width:40%;
+    background: linear-gradient(0deg, rgba(154,34,195,1) 0%, rgba(45,253,252,1) 100%);    height:100%;
+    position:absolute;
+    left:50%;
+    transform: translate( -50%);
+
+
+}
+
+.header{
+    font-size: 30px;
+    color: #fff;
+}
+
+.error{
+    padding-top:10px;
+    color:red;
+    font-size:15px;
+}
+
+.task-input{
+
+      background-color: transparent;
+      color: #fff;
+      padding: 6px 10px;
+      border: 1px solid var(--primary);
+      transition: all 0.3s ease-out;
+      border-radius:4px;
+
+}
+
+.input-large {
+    padding: 15px 30px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+
+}
+
+.task-element {
+    padding-left:0px;
+    min-width:300px;
+    max-width: 500px;
+    position:absolute;
+    left:50%;
+    transform: translate( -50%);
+
+}
+
+@media screen and (max-width: 960px) {
+
+.toDo-Container{
+    width:50%;
+}
+
+}
+
